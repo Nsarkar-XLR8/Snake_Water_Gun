@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #222;
+  color: #fff;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.choices button {
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: #444;
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.choices button:hover {
+  background: #666;
+}
+
+#result {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+#score {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
